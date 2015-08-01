@@ -1,5 +1,6 @@
 package com.cohen.ortal.liedetector;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +13,7 @@ import android.widget.TextView;
  * @author user
  * @date 2015-07-27
  */
-public class PrivateInstructionsActivity extends AppCompatActivity {
+public class PrivateInstructionsActivity extends Activity {
 
     private Button continueButton;
 

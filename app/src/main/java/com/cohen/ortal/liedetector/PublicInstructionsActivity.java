@@ -1,5 +1,6 @@
 package com.cohen.ortal.liedetector;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +10,7 @@ import android.view.MenuItem;
  * @author user
  * @date 2015-07-27
  */
-public class PublicInstructionsActivity extends AppCompatActivity {
+public class PublicInstructionsActivity extends Activity {
     private AppBar mToolbar;
 
 
@@ -23,11 +24,11 @@ public class PublicInstructionsActivity extends AppCompatActivity {
 
     protected void setupToolbar() {
         mToolbar = (AppBar) findViewById(R.id.app_bar);
-        setSupportActionBar(mToolbar);
-        final ActionBar ab = getSupportActionBar();
-        if (ab != null) {
-            ab.setDisplayHomeAsUpEnabled(true);
-        }
+//        setSupportActionBar(mToolbar);
+//        final ActionBar ab = getSupportActionBar();
+//        if (ab != null) {
+//            ab.setDisplayHomeAsUpEnabled(true);
+//        }
     }
 
     @Override

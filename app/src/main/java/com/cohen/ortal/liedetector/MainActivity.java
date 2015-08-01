@@ -3,6 +3,7 @@ package com.cohen.ortal.liedetector;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -29,7 +30,7 @@ import java.util.HashMap;
 import java.util.Random;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     final Handler handler = new Handler();
     private CameraView mCameraView;
@@ -140,11 +141,11 @@ public class MainActivity extends AppCompatActivity {
 
     protected void setupToolbar() {
         mToolbar = (AppBar) findViewById(R.id.app_bar);
-        setSupportActionBar(mToolbar);
-        final ActionBar ab = getSupportActionBar();
-        if (ab != null) {
-            ab.setDisplayHomeAsUpEnabled(false);
-        }
+//        setSupportActionBar(mToolbar);
+//        final ActionBar ab = getSupportActionBar();
+//        if (ab != null) {
+//            ab.setDisplayHomeAsUpEnabled(false);
+//        }
     }
 
     @Override
