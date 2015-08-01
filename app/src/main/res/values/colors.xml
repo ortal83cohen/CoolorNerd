@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="natural_theme_primary">#0026FF</color>
+    <color name="natural_theme_primary_dark">#002684</color>
+    <color name="natural_theme_accent">#21C097</color>
+
+    <color name="true_theme_primary">#009E0F</color>
+    <color name="true_theme_primary_dark">#007009</color>
+    <color name="true_theme_accent">#21C097</color>
+
+    <color name="false_theme_primary">#FF0000</color>
+    <color name="false_theme_primary_dark">#8F0000</color>
+    <color name="false_theme_accent">#21C097</color>
+
+
+
+
+    <color name="theme_background">@android:color/white</color>
+
+</resources>

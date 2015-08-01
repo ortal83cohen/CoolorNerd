@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cool or Nerd</string>
+    <string name="action_settings">Instructions</string>
+    <string name="bottom_main_banner_ad_unit_id">ca-app-pub-1642125252648978/6727199048</string>
+    <string name="test_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="private_instructions">How this app works is simple: \nThis is a prank Cool or Nerd app, it is the perfect
+        app for pranking your friends and family.\n1. Just take a pic, if you will click on the camera button for cool result or anywhere else for nerd results.
+    </string>
+
+
+    <string name="private_instructions_note">*note, by clicking on continue you will never see these
+        instructions again.
+    </string>
+
+    <string name="public_instructions">Just take a pic and the app will analyze the image and detect it you Cool or Nerd.
+    </string>
+
+
+</resources>
